@@ -31,10 +31,11 @@ header > h1 {
 
 main {
     background-color: #fff;
-    max-width: 590px;
+    max-width: 55vw;
     margin: auto;
     box-shadow: 2px 2px 5px #00000099;
     padding: 15px 10px;
+    line-height: 1.6em;
 }
 
 main > section {
@@ -44,6 +45,7 @@ main > section {
 main > h2 {
     margin: 20px 0;
 }
+
 section.descricao {
     display: flex;
     justify-content: space-between;
@@ -64,4 +66,8 @@ section.descricao a {
 section.descricao a:hover {
     color: var(--cor-fundo);
     text-decoration: underline;
+}
+
+section > img {
+    margin-left: 10px;
 }
