@@ -44,6 +44,8 @@ main > #video {
     justify-content: center;
     background-color: var(--cor-fundo);
     box-shadow: inset 0px 0px 5px 5px #00000060;
+    height: 315px;
+    max-width: 570px;
 }
 
 button {
