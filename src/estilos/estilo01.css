@@ -61,7 +61,6 @@ section.descricao a {
     text-decoration: none;
     color: var(--cor-fonte);
     font-weight: bold;
-    border: 2px solid;
 }
 
 section.descricao a:hover {
